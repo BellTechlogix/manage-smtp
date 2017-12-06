@@ -27,7 +27,9 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="Script.ps1" />
+    <Compile Include="Add-SMTP.ps1" />
+    <Compile Include="Remove-SMTP.ps1" />
+    <Compile Include="SmtpReport.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
